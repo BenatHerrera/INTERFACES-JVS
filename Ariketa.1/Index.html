@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulagailu de Gastos de Viaje</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+
+    <h1>Cálculo de los Gastos de Viaje</h1>
+
+    <label for="ostatu">Ostatu-gastuak (€):</label>
+    <input type="number" id="ostatu" placeholder="Introduce el gasto de alojamiento">
+
+    <label for="elikadura">Elikadura-gastuak (€):</label>
+    <input type="number" id="elikadura" placeholder="Introduce el gasto de alimentación">
+
+    <label for="entretenimendu">Entretenimendu-gastuak (€):</label>
+    <input type="number" id="entretenimendu" placeholder="Introduce el gasto de entretenimiento">
+
+    <button onclick="calcularGastos()">Calcular Total</button>
+
+    <div id="resultado" class="resultado"></div>
+
+    <script src="Script.js"></script> 
+</body>
+</html>
